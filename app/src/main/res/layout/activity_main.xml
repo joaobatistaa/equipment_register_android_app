@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home">
+
+    <include layout="@layout/content_main" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="500px"
+            android:background="#ffffff"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="500px"
+                app:srcCompat="@drawable/cmrm_logo2" />
+
+            <Button
+                android:id="@+id/btn_add_equip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/cmrm_logo2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="450px"
+            android:background="@color/colorBranco">
+
+            <Button
+                android:id="@+id/btn_equipamentos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ver Equipamentos"
+                android:layout_marginLeft="120px"
+                android:layout_marginRight="120px"
+                android:layout_marginTop="50px"
+                android:textColor="@color/colorBranco"
+                android:background="@color/colorBotoesFundo"/>
+
+            <Button
+                android:id="@+id/btn_add_equipamentos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adicionar Equipamentos"
+                android:layout_marginTop="100px"
+                android:layout_marginLeft="120px"
+                android:layout_marginRight="120px"
+                android:textColor="@color/colorBranco"
+                android:background="@color/colorBotoesFundo"/>
+
+            <Button
+                android:id="@+id/btn_tab_sec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tabelas Secundárias"
+                android:layout_marginTop="100px"
+                android:layout_marginLeft="120px"
+                android:layout_marginRight="120px"
+                android:textColor="@color/colorBranco"
+                android:background="@color/colorBotoesFundo"/>
+
+            <Button
+                android:id="@+id/btn_sair"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fechar Aplicação"
+                android:layout_marginTop="100px"
+                android:layout_marginLeft="120px"
+                android:layout_marginRight="120px"
+                android:textColor="@color/colorBranco"
+                android:background="@color/colorBotoesFundo"/>
+
+            <TextView
+                android:id="@+id/lbl_desenvolvedor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100px"
+                android:gravity="center"
+                android:textColor="@color/colorPreto"
+                android:text="Desenvolvido por João Batista"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

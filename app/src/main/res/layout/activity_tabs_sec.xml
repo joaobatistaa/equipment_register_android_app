@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorBranco">
+
+        <ImageView
+            android:id="@+id/btn_voltar"
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="20px"
+            android:src="@drawable/btn_voltar_azulclaro"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350px"
+            android:src="@drawable/cmrm_logo2"
+            android:layout_marginTop="0px"/>
+
+        <Button
+            android:id="@+id/btn_agrupamentos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agrupamentos"
+            android:layout_marginTop="70px"
+            android:background="@color/colorBotoesFundo"
+            android:textColor="@color/colorBranco"
+            android:layout_marginRight="100px"
+            android:layout_marginLeft="100px"/>
+        <Button
+            android:id="@+id/btn_escolas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Escolas"
+            android:layout_marginTop="70px"
+            android:background="@color/colorBotoesFundo"
+            android:textColor="@color/colorBranco"
+            android:layout_marginRight="100px"
+            android:layout_marginLeft="100px"/>
+        <Button
+            android:id="@+id/btn_edificios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edifícios Municipais"
+            android:layout_marginTop="70px"
+            android:background="@color/colorBotoesFundo"
+            android:textColor="@color/colorBranco"
+            android:layout_marginRight="100px"
+            android:layout_marginLeft="100px"/>
+
+        <Button
+            android:id="@+id/btn_estados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estados"
+            android:layout_marginTop="70px"
+            android:background="@color/colorBotoesFundo"
+            android:textColor="@color/colorBranco"
+            android:layout_marginRight="100px"
+            android:layout_marginLeft="100px"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

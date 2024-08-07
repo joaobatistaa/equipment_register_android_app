@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "979939584977",
+    "firebase_url": "https://itech-software-1552687309111.firebaseio.com",
+    "project_id": "itech-software-1552687309111",
+    "storage_bucket": "itech-software-1552687309111.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979939584977:android:4717c1060d1e4a3d410ef0",
+        "android_client_info": {
+          "package_name": "com.android.inventariocmrm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979939584977-fqv7qg0pprs0hpjcjq8a0tv1qp0kom53.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoo-n82_n-_lCHQ_NeehDQNzXmGmrIfnI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979939584977-fqv7qg0pprs0hpjcjq8a0tv1qp0kom53.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

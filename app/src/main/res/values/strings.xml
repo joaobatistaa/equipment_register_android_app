@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CMRM - Equipamentos</string>
+    <string name="offline">Tu estás offline</string>
+    <string name="msg_offline">Verifique se a conexão com a internet está funcionando corretamente.</string>
+    <string name="msg_no_news">Não existem Equipamentos registados na Base de Dados!</string>
+    <string name="msg_no_category">Oops, ainda não foram publicados eventos.</string>
+    <string name="msg_no_news_found">Oops, não foram encontradas notícias! Se pretendes continuar a pesquisar, por favor experimenta pesquisar por outra coisa!</string>
+    <string name="msg_no_events_found">Oops, não foram encontrados eventos! Se pretendes continuar a pesquisar, por favor experimenta pesquisar por outra coisa!</string>
+    <string name="msg_no_network">Oops, ocorreu algum problema com a tua internet ou o servidor está offline, por favor tente novamente mais tarde.</string>
+    <string name="msg_search_input">Por favor preenche o campo de pesquisa</string>
+    <string name="btn_retry">Tentar Novamente</string>
+</resources>
